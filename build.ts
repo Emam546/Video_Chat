@@ -15,7 +15,11 @@ import childProcess from "child_process";
         await remove("./dist/");
         // Copy back-end files
         await exec("tsc --build tsconfig.prod.json", "./");
+<<<<<<< HEAD
         logger.info("Success")
+=======
+        logger.info("Success");
+>>>>>>> 6158424 (app nextjs)
     } catch (err) {
         logger.err(err);
     }

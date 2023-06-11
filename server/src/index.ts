@@ -16,7 +16,12 @@ app.prepare()
             return handle(req, res);
         });
 
+<<<<<<< HEAD
         const msg ="Express server started on port: " + EnvVars.port.toString();
+=======
+        const msg =
+            "Express server started on port: " + EnvVars.port.toString();
+>>>>>>> 6158424 (app nextjs)
         listener.listen(EnvVars.port, () => logger.info(msg));
     })
     .catch((ex) => {
