@@ -3,12 +3,5 @@
   "rules": {
     "react-hooks/exhaustive-deps": 0
   },
-<<<<<<< HEAD
   "ignorePatterns":["build.ts"]
-=======
-  "ignorePatterns": [
-    "build.ts",
-    "server"
-  ]
->>>>>>> 6158424 (app nextjs)
 }
