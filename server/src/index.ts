@@ -16,8 +16,7 @@ app.prepare()
             return handle(req, res);
         });
 
-        const msg =
-            "Express server started on port: " + EnvVars.port.toString();
+        const msg ="Express server started on port: " + EnvVars.port.toString();
         listener.listen(EnvVars.port, () => logger.info(msg));
     })
     .catch((ex) => {
