@@ -70,9 +70,9 @@ const VideoPlayer = ({ stream, userName, streamName }: Props) => {
                 autoPlay
             />
 
-            {stream && streamName && (
+            {stream && (
                 <Video
-                    title={streamName}
+                    title={streamName || ""}
                     playsInline
                     ref={otherStream as any}
                     autoPlay

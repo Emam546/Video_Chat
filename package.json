@@ -1,8 +1,7 @@
 {
-  "name": "radalata",
+  "name": "Video_chat_app",
   "version": "1.0.0",
-  "description": "radalata app in the batman movie",
-  "main": "app.ts",
+  "description": "a peer-to-peer video chat application developed using Next.js",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -54,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Emam546/RadaLata.git"
+    "url": "git+https://github.com/Emam546/Video_Chat"
   },
   "keywords": [
     "radalata",
@@ -65,9 +64,9 @@
   "author": "Imam Ashour",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Emam546/RadaLata/issues"
+    "url": "https://github.com/Emam546/Video_Chat/issues"
   },
-  "homepage": "https://github.com/Emam546/RadaLata#readme",
+  "homepage": "https://github.com/Emam546/Video_Chat#readme",
   "nodemonConfig": {
     "watch": [
       "server/src"
